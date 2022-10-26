@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button[aria-label=\"close and deny\"]\"}\n  (Session info: headless chrome=106.0.5249.119)",
+  "stacktrace": "#0 0x564d2b52a2c3 <unknown>\n#1 0x564d2b33383a <unknown>\n#2 0x564d2b36c985 <unknown>\n#3 0x564d2b36cb61 <unknown>\n#4 0x564d2b3a4d14 <unknown>\n#5 0x564d2b38af6d <unknown>\n#6 0x564d2b3a2a50 <unknown>\n#7 0x564d2b38ad63 <unknown>\n#8 0x564d2b35f7e3 <unknown>\n#9 0x564d2b360a21 <unknown>\n#10 0x564d2b57818e <unknown>\n#11 0x564d2b57b622 <unknown>\n#12 0x564d2b55eaae <unknown>\n#13 0x564d2b57c2a3 <unknown>\n#14 0x564d2b552ecf <unknown>\n#15 0x564d2b59c588 <unknown>\n#16 0x564d2b59c706 <unknown>\n#17 0x564d2b5b68b2 <unknown>\n#18 0x7f1242068609 <unknown>\n"
+}
