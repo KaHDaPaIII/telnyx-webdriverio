@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "header ul > li:nth-of-type(4) a"
+}
