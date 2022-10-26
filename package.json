@@ -17,8 +17,8 @@
     },
     "scripts": {
         "wdio": "cross-env TZ=UTC wdio run wdio.conf.js",
-        "wdio:browser:chrome": "cross-env TZ=UTC wdio run ./test/configs/wdio-chrome.conf.js",
-        "wdio:browser:firefox": "cross-env TZ=UTC wdio run ./test/configs/wdio-firefox.conf.js",
+        "wdio:browser:chrome": "cross-env TZ=UTC wdio run ./configs/wdio-chrome.conf.js",
+        "wdio:browser:firefox": "cross-env TZ=UTC wdio run ./configs/wdio-firefox.conf.js",
         "wdio:spec:contact-us": "cross-env TZ=UTC wdio run wdio.conf.js --spec contact-us.js",
         "wdio:spec:homepage": "cross-env TZ=UTC wdio run wdio.conf.js --spec homepage.js",
         "wdio:spec:login": "cross-env TZ=UTC wdio run wdio.conf.js --spec login.js",
