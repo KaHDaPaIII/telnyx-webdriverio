@@ -24,6 +24,8 @@
         "wdio:spec:homepage": "cross-env TZ=UTC wdio run wdio.conf.js --spec homepage.js",
         "wdio:spec:login": "cross-env TZ=UTC wdio run wdio.conf.js --spec login.js",
         "wdio:spec:registration": "cross-env TZ=UTC wdio run wdio.conf.js --spec registration.js",
-        "wdio:spec:twilio-pricing-calculator": "cross-env TZ=UTC wdio run wdio.conf.js --spec twilio-pricing-calculator.js"
+        "wdio:spec:twilio-pricing-calculator": "cross-env TZ=UTC wdio run wdio.conf.js --spec twilio-pricing-calculator.js",
+        "allure:serve": "npx allure serve allure-results",
+        "allure:generate": "npx allure generate allure-results --clean && allure open"
     }
 }
