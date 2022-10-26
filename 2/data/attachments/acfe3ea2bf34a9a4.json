@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//footer//div[contains(text(),\"©\")]"
+}
