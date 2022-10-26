@@ -1,0 +1,14 @@
+name: Dcoker build and run
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Build docker image
+        run: docker build -t mytest -f Dockerfile .
+
+      - name: Run docker container
+        run: docker run -it mytest
