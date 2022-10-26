@@ -1,0 +1,50 @@
+[
+ {
+   "country": "Estonia",
+   "phonenumber": "+372 699 1435"
+ },
+ {
+   "country": "Finland",
+   "phonenumber": "+358 753 255 300"
+ },
+ {
+   "country": "Ireland",
+   "phonenumber": "+353 818 123 457"
+ },
+ {
+   "country": "Israel",
+   "phonenumber": "+972 772 2000 92"
+ },
+ {
+   "country": "Mexico",
+   "phonenumber": "+52 558 897 4917"
+ },
+ {
+   "country": "Netherlands",
+   "phonenumber": "+31 853 018 256"
+ },
+ {
+   "country": "New Zealand",
+   "phonenumber": "+64 9 884 4134"
+ },
+ {
+   "country": "Philippines",
+   "phonenumber": "+63 322 346 319"
+ },
+ {
+   "country": "Poland",
+   "phonenumber": "+48 22 153 00 79"
+ },
+ {
+   "country": "Singapore",
+   "phonenumber": "+65 3159 4436"
+ },
+ {
+   "country": "United Kingdom",
+   "phonenumber": "+44 3301 900175"
+ },
+ {
+   "country": "All other countries",
+   "phonenumber": "+1 312 945 7420"
+ }
+]
