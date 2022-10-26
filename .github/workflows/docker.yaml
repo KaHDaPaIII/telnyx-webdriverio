@@ -11,4 +11,4 @@ jobs:
         run: docker build -t mytest -f Dockerfile .
 
       - name: Run docker container
-        run: docker run -it mytest
+        run: docker run -i mytest
