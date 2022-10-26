@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "header + div h2 + p > span:first-child"
+}
