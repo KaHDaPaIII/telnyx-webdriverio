@@ -10,16 +10,15 @@ class TelnyxLoginPage {
     }
     get emailErrorMessage() {
         return $('//input[@name="email"]/../../div[contains(@class,"TextField__ErrorMessage")]');
-        // need to enable :has() selector in firefox
-        // return $('form[aria-label="loginForm"] div:has(> input[name="email"]) + div');
     }
     get passwordInput() {
         return $('form[aria-label="loginForm"] input[name="password"]');
     }
     get passwordErrorMessage() {
         return $('//input[@name="password"]/../../div[contains(@class,"TextField__ErrorMessage")]');
-        // need to enable :has() selector in firefox
-        // return $('form[aria-label="loginForm"] div:has(> input[name="password"]) + div');
+    }
+    get signinMessage() {
+        return $('[data-testid="login.signin.message"]');
     }
     async setEmail(email) {
         await this.emailInput.setValue(email);

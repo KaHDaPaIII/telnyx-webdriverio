@@ -8,7 +8,7 @@ class TelnyxHomePage extends Page {
         return $('main button[type="submit"]');
     }
     get startYourFreeTrialLink() {
-        return $('main div:last-child a.sign-up-link');
+        return $('main div:last-child a[href="/sign-up"]');
     }    
     async clickTryForFreeButton() {
         await this.tryForFreeButton.click();

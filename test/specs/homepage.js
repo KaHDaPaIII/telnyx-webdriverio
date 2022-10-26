@@ -10,15 +10,15 @@ describe('Testing the main page', () => {
     
     it('Clicking the "Try for free" button redirects to the sign up page', async () => {
         await homePage.clickTryForFreeButton();
-        await expect(browser).toHaveUrl('https://telnyx.com/sign-up');
+        await expect(browser).toHaveUrlContaining('https://telnyx.com/sign-up');
     });
 
     it('Clicking the “Start your free trial” button on the bottom of the homepage redirects to the sign up page', async () => {
         await homePage.clickStartYourFreeTrialLink();
-        await expect(browser).toHaveUrl('https://telnyx.com/sign-up');
+        await expect(browser).toHaveUrlContaining('https://telnyx.com/sign-up');
     });
 
-    it.skip('Clicking the “Developer Docs” link in the hoverable dropdown menu', async () => {
+    it('Clicking the “Developer Docs” link in the hoverable dropdown menu', async () => {
         await browser.setWindowSize(1600, 900);
         await homePage.hoverResourcesLabel();
         await homePage.clickDeveloperDocsLink();
@@ -48,7 +48,7 @@ describe('Testing the main page', () => {
         await expect(homePage.facebookLink).toHaveAttribute('href', 'https://www.facebook.com/Telnyx/');
     });
 
-    it.skip('Clicking the “Developer Docs” link in the “hamburger menu”', async () => {
+    it('Clicking the “Developer Docs” link in the “hamburger menu”', async () => {
         await browser.setWindowSize(540, 960);
         await homePage.clickHamburgerButton();
         await homePage.clickResourcesNavButton();
@@ -57,7 +57,7 @@ describe('Testing the main page', () => {
         await expect(telnyxApiDocLabel).toBeDisplayedInViewport();
     });
 
-    it('Clicking the “See all Pricing” link in the “hamburger menu”', async () => {
+    it.only('Clicking the “See all Pricing” link in the “hamburger menu”', async () => {
         await browser.setWindowSize(540, 960);
         await homePage.clickHamburgerButton();
         await homePage.clickPricingNavButton();
