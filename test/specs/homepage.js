@@ -57,7 +57,7 @@ describe('Testing the main page', () => {
         await expect(telnyxApiDocLabel).toBeDisplayedInViewport();
     });
 
-    it.only('Clicking the “See all Pricing” link in the “hamburger menu”', async () => {
+    it('Clicking the “See all Pricing” link in the “hamburger menu”', async () => {
         await browser.setWindowSize(540, 960);
         await homePage.clickHamburgerButton();
         await homePage.clickPricingNavButton();
