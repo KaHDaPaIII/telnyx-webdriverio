@@ -17,6 +17,7 @@
     },
     "scripts": {
         "wdio": "cross-env TZ=UTC wdio run wdio.conf.js",
+        "wdio:headless": "cross-env TZ=UTC wdio run ./configs/wdio-headless.conf.js",
         "wdio:browser:chrome": "cross-env TZ=UTC wdio run ./configs/wdio-chrome.conf.js",
         "wdio:browser:firefox": "cross-env TZ=UTC wdio run ./configs/wdio-firefox.conf.js",
         "wdio:spec:contact-us": "cross-env TZ=UTC wdio run wdio.conf.js --spec contact-us.js",
